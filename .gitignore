@@ -1,0 +1,21 @@
+# Rust & Cargo
+/target/
+**/*.rs.bk
+
+# CMake & compilación
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Archivos C++ generados al vuelo por cxx-qt
+*.cxxqt.h
+*.cxxqt.cpp
+
+# Editores y temporales
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
